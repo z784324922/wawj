@@ -1,0 +1,94 @@
+@detail:detail;
+.@{detail}{
+    position: relative;
+    background: #fff;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &-box{
+        flex: 1;
+        overflow: auto;
+        background: #f6f6f6;
+        div{
+            background: white;
+        }
+        .address{
+            height: 225px;
+            overflow: hidden;
+            p{
+                margin-left: 50px;
+            }
+            .conmmunityname{
+                height: 88px;
+                line-height: 88px;
+                font-size: 50px;
+                margin-top: 30px;
+            }
+            .communityaddress{
+                height: 84px;
+                line-height: 84px;
+                font-size: 38px;
+            }
+        }
+        .jieshao{
+            height: 260px;
+            border-top: 2px solid #d9d9d9;
+            border-bottom: 2px solid #d9d9d9;
+            padding: 45px 0;
+            display: flex;
+            div{
+                width: 33%;
+                height: 100%;
+                box-sizing: border-box;
+                border-right: 1px solid #d9d9d9;
+                padding: 40px 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                p:nth-child(1){
+                    font-size: 42px;
+                    color: #454545;
+                }
+                p:nth-child(2){
+                    font-size: 45px;
+                    color: #00b3ed;
+                }
+                
+            }
+        }
+    }
+    &-top{
+        width:100%;
+        height:963px;
+        position: relative;
+        .swiper-container{
+            .swiper-wrapper{
+                .swiper-slide{
+                    width: 100%;
+                    height: 963px;
+                    img{
+                        width: 100%;
+                        height: 963px;
+                    }
+                }
+            }
+        }   
+        .rbtn{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background: #666666;
+            position: absolute;
+            opacity: 0.7;
+            top: 15px;
+            left: 30px;
+            z-index: 99;
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            line-height: 100px;
+        }
+    }
+}

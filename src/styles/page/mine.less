@@ -1,0 +1,96 @@
+@mine:mine;
+.@{mine}{
+    position: relative;
+    background: #fff;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &-top{
+        height: 150px;
+        line-height: 150px;
+        background: #00a0ea;
+        color: white;
+        font-size: 45px;
+        text-align: center;
+    }
+    &-main{
+        flex: 1;
+        overflow: auto;
+        margin-bottom: 160px;
+        background: #f2f2f2;
+        .user{
+            height: 264px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background: white;
+            border-top: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+            p{
+                line-height: 264px;
+                margin-left: 50px;
+                font-size: 45px;
+                margin-right: 100px;
+                span{
+                    background: #00abeb;
+                    height: 100px;
+                    line-height: 100px;
+                    font-size: 40px;
+                    color: white;
+                    float: right;
+                    padding: 0 60px;
+                    margin-top: 75px;
+                    border-radius: 12px;
+                }
+                
+            }
+            .unlogin{
+                width: 320px;
+                height: 125px;
+                margin-top: 65px;
+                line-height: 125px;
+                font-size: 45px;
+                text-align: center;
+                border-radius: 12px;
+            }
+            .mine-register{
+                float: left;
+                color: #cbcbcb;  
+                margin-left: 145px;
+                border:1px solid #d9d9d9;
+            }
+            .mine-login{
+                float: right;
+                background: #00abeb;
+                color: white;
+                margin-right: 145px;
+            }
+        }
+        .mainbox{
+            background: white;
+            border-top: 1px solid #dadada;
+            margin-bottom: 35px;
+            p{
+                height: 145px;
+                border-bottom: 1px solid #dadada;
+                line-height: 145px;
+                padding-left: 45px;
+                padding-right: 35px;
+                i:nth-child(1){
+                    vertical-align: middle;
+                    font-size:60px; 
+                }
+                span{
+                    vertical-align: middle;
+                    margin-left: 30px;
+                    font-size: 40px;
+                }
+                i:nth-child(3){
+                    float: right;
+                    font-size: 60px;
+                    color: #86878c;
+                }
+            }
+        }
+    }
+}
